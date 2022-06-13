@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.container{
+    display: flex;
+    width: 90%;
+    height: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+.lucky{
+    width: 95%;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+.section{
+    flex-direction: column;
+    display: flex;
+    width: 20%;
+    margin: 10px;
+}
+.section input{
+    height: 50px;
+    margin: 10px;
+}
+.click{
+    width: calc(100% - 20px);
+    height: 50px;
+    margin: 100px 10px;
+    cursor: pointer;
+}
+.section:last-child .click{
+    margin-top: 10px;
+}
+.section p {
+    margin: 10px;
+
+}
